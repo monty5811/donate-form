@@ -1,0 +1,16 @@
+{
+  "name": "donate-form",
+  "version": "1.0.0",
+  "description": "example severless donate form with stripe & netlify",
+  "main": "index.js",
+  "repository": "git@github.com:monty5811/donate-form.git",
+  "author": "Dean Montgomery <montgomery.dean97@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "netlify-lambda build netlify_functions"
+  },
+  "dependencies": {
+    "netlify-lambda": "^1.6.2",
+    "stripe": "^7.8.0"
+  }
+}
